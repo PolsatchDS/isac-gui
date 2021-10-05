@@ -192,7 +192,7 @@
             <li class="nav-item">
               <router-link tag="a" class to="/app/dashboards/dashboard.v1">
                 <i class="nav-icon i-Clock-3"></i>
-                <span class="item-name">Version 1</span>
+                <span class="item-name">Ventas</span>
               </router-link>
             </li>
             <li class="nav-item">

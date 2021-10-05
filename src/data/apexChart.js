@@ -1234,7 +1234,7 @@ export const customDataLabelBar = {
         "Japan",
         "United States",
         "China",
-        "India",
+        "Uruguay",
       ],
     },
     yaxis: {

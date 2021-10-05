@@ -1,7 +1,7 @@
 <template>
   <!-- ============ Body content start ============= -->
   <div class="main-content">
-    <breadcumb :page="'Version 1'" :folder="'Dashboard'" />
+    <breadcumb :page="'Ventas'" :folder="'Dashboard'" />
     <b-row>
       <!-- ICON BG -->
 
@@ -11,7 +11,7 @@
         >
           <i class="i-Add-User"></i>
           <div class="content">
-            <p class="text-muted mt-2 mb-0">New Leads</p>
+            <p class="text-muted mt-2 mb-0">Clientes</p>
             <p class="text-primary text-24 line-height-1 mb-2">205</p>
           </div>
         </b-card>
@@ -22,7 +22,7 @@
         >
           <i class="i-Financial"></i>
           <div class="content">
-            <p class="text-muted mt-2 mb-0">Sales</p>
+            <p class="text-muted mt-2 mb-0">Ventas</p>
             <p class="text-primary text-24 line-height-1 mb-2">$4021</p>
           </div>
         </b-card>
@@ -33,7 +33,7 @@
         >
           <i class="i-Checkout-Basket"></i>
           <div class="content">
-            <p class="text-muted mt-2 mb-0">Orders</p>
+            <p class="text-muted mt-2 mb-0">Pedidos</p>
             <p class="text-primary text-24 line-height-1 mb-2">80</p>
           </div>
         </b-card>
@@ -44,7 +44,7 @@
         >
           <i class="i-Money-2"></i>
           <div class="content">
-            <p class="text-muted mt-2 mb-0">Expense</p>
+            <p class="text-muted mt-2 mb-0">Ganancias</p>
             <p class="text-primary text-24 line-height-1 mb-2">$1200</p>
           </div>
         </b-card>
@@ -54,7 +54,7 @@
     <b-row>
       <b-col lg="8" md="12" sm="12">
         <b-card class=" mb-30">
-          <h4 class="card-title m-0">This Year Sales</h4>
+          <h4 class="card-title m-0">Ventas Anuales</h4>
           <div class="chart-wrapper" style="height: 300px ; width:100% ">
             <v-chart
               id="echartbar"
@@ -66,7 +66,7 @@
       </b-col>
       <b-col col lg="4" md="12" sm="12">
         <b-card class=" mb-30">
-          <h4 class="card-title m-0">Sales by Countries</h4>
+          <h4 class="card-title m-0">Ventas por rubro</h4>
           <div class="chart-wrapper" style="height: 300px ; width:100%">
             <v-chart :options="echartPie" :autoresize="true"></v-chart>
           </div>
@@ -170,7 +170,7 @@
       <b-col lg="6" xl="6" md="12">
         <div class="card mb-30">
           <div class="card-body">
-            <div class="card-title">Top Selling Products</div>
+            <div class="card-title">Top Ventas Productos</div>
             <div class="d-flex flex-column flex-sm-row align-items-center mb-3">
               <img
                 class="avatar-lg mb-3 mb-sm-0 rounded mr-sm-3"
